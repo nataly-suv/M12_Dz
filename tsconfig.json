@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "ES6",                // конеяная версия JS
+        "module": "ESNext",            // система модулей 
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "strict": true,                // строгое отслеживание всех типов
+        "noImplicitAny": true,          // нельзя использовать тип данных any
+        "sourceMap": true,
+        "outDir": "./dist",             // в какую папку будем собирать проект
+        "baseUrl": "./src",             // базовая папка с кодом
+        "paths": {
+            "*": ["*"]
+        }
+    },
+    "include": ["src/**/*"],        // включаем все подкатологи src
+    "exclude": ["node_modules"]     // исключаем node_modules
+}
